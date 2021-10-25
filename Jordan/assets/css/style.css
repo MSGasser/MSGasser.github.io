@@ -1,0 +1,92 @@
+/* Universal Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.bodyContent {
+    padding: 1.5vw;
+}
+
+.header {
+    padding: 1.5vw;
+    background-color: rgba(175, 255, 255, 0.5);
+    border-bottom: 0.05vw solid rgba(0, 0, 0, 0.2);
+}
+
+.signature {
+    display: inline-block;
+    font-size: 4vw;
+    font-family: 'Great Vibes', cursive;
+}
+
+.signature:hover {
+    font-weight: bold;
+}
+
+.subtext {
+    margin-left: 0.5vw;
+    font-size: 0.66vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(150, 150, 150);
+    display: inline-block;
+}
+
+.headerImage img {
+    width: 100%;
+}
+
+.categoryButtonBox {
+    text-align: center;
+}
+
+.categoryButton {
+    display: inline-block;
+    margin: 4vw;
+    width: 5%;
+    padding: 0;
+}
+
+.categoryButton img {
+    width: 100%;
+}
+
+.categoryButton :hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.categoryTitle {
+    text-align: center;
+    border-right: 0.1vw solid black;
+    height: 100%;
+    width: 20%;
+    font-size: 2vw;
+}
+
+.categoryInfo {
+    padding-left: 10%;
+    width: 40%;
+    font-size: 1.3vw;
+}
+
+.categoryQuote {
+    text-align: center;
+    width: 40%;
+    font-size: 1.5vw;
+}
+
+.category {
+    border: 0.1vw solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5vw;
+    background-color: rgba(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+}
